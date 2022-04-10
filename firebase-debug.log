@@ -1,0 +1,43 @@
+[debug] [2022-04-10T22:04:18.297Z] ----------------------------------------------------------------------
+[debug] [2022-04-10T22:04:18.299Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mario\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-04-10T22:04:18.300Z] CLI Version:   10.6.0
+[debug] [2022-04-10T22:04:18.300Z] Platform:      win32
+[debug] [2022-04-10T22:04:18.300Z] Node Version:  v16.14.2
+[debug] [2022-04-10T22:04:18.301Z] Time:          Mon Apr 11 2022 00:04:18 GMT+0200 (hora de verano de Europa central)
+[debug] [2022-04-10T22:04:18.301Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-10T22:04:18.309Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-10T22:04:18.309Z] > authorizing via signed-in user (mariodiazdiestro@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mario\Desktop\projectP
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-04-10T22:04:49.545Z] > refreshing access token with scopes: []
+[debug] [2022-04-10T22:04:49.545Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-04-10T22:04:49.673Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Sun, 10 Apr 2022 22:04:49 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-04-10T22:04:49.687Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-04-10T22:04:50.111Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-04-10T22:04:50.112Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project regalo-f1887 (regalo) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
